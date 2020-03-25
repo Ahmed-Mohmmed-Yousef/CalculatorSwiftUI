@@ -13,6 +13,10 @@
 		249CF0A3242C0812000D9C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249CF0A2242C0812000D9C44 /* Assets.xcassets */; };
 		249CF0A6242C0812000D9C44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249CF0A5242C0812000D9C44 /* Preview Assets.xcassets */; };
 		249CF0A9242C0812000D9C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249CF0A7242C0812000D9C44 /* LaunchScreen.storyboard */; };
+		249CF0B4242C18A0000D9C44 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0B3242C18A0000D9C44 /* Key.swift */; };
+		249CF0B6242C18F4000D9C44 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0B5242C18F4000D9C44 /* ResultView.swift */; };
+		249CF0B8242C192F000D9C44 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0B7242C192F000D9C44 /* KeyView.swift */; };
+		249CF0BA242C195F000D9C44 /* KeyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0B9242C195F000D9C44 /* KeyPadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		249CF0A5242C0812000D9C44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		249CF0A8242C0812000D9C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		249CF0AA242C0812000D9C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249CF0B3242C18A0000D9C44 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		249CF0B5242C18F4000D9C44 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		249CF0B7242C192F000D9C44 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		249CF0B9242C195F000D9C44 /* KeyPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		249CF09B242C080E000D9C44 /* CalculatorSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				249CF0B0242C1858000D9C44 /* Models */,
+				249CF0B2242C1872000D9C44 /* Views */,
 				249CF09C242C080E000D9C44 /* AppDelegate.swift */,
 				249CF09E242C080E000D9C44 /* SceneDelegate.swift */,
 				249CF0A0242C080E000D9C44 /* ContentView.swift */,
@@ -73,6 +83,24 @@
 				249CF0A5242C0812000D9C44 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		249CF0B0242C1858000D9C44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				249CF0B3242C18A0000D9C44 /* Key.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		249CF0B2242C1872000D9C44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				249CF0B5242C18F4000D9C44 /* ResultView.swift */,
+				249CF0B7242C192F000D9C44 /* KeyView.swift */,
+				249CF0B9242C195F000D9C44 /* KeyPadView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				249CF09D242C080E000D9C44 /* AppDelegate.swift in Sources */,
+				249CF0BA242C195F000D9C44 /* KeyPadView.swift in Sources */,
+				249CF0B4242C18A0000D9C44 /* Key.swift in Sources */,
+				249CF0B8242C192F000D9C44 /* KeyView.swift in Sources */,
+				249CF0B6242C18F4000D9C44 /* ResultView.swift in Sources */,
 				249CF09F242C080E000D9C44 /* SceneDelegate.swift in Sources */,
 				249CF0A1242C080E000D9C44 /* ContentView.swift in Sources */,
 			);
