@@ -9,13 +9,14 @@
 import SwiftUI
 
 struct KeyPadView: View {
-    @Binding var value: String
+    @EnvironmentObject var calcVM: CalculatorVM
     var body: some View{
-        VStack(spacing: 20) {
+        let keys: [[Key]] = calcVM.getKeys()
+        return VStack(spacing: 20) {
             ForEach(0 ..< keys.count){ index in
                 HStack(spacing: 10){
                     ForEach(0 ..< keys[index].count){ innerIndx in
-                        KeyView(key: keys[index][innerIndx], value: self.$value)
+                        KeyView(key: keys[index][innerIndx])
                     }
                 }
             }

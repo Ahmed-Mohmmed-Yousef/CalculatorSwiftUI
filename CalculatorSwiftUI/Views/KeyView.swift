@@ -9,14 +9,13 @@
 import SwiftUI
 
 struct KeyView: View{
+    @EnvironmentObject var calcVM: CalculatorVM
     var key: Key
-    @Binding var value: String
-    
     var body: some View{
         let width = (key.lable == "0" ? UIScreen.main.bounds.width / 2 : UIScreen.main.bounds.width / 4) - 10
         let height = (UIScreen.main.bounds.width / 4) - 10
         return Button(action: {
-            self.value = self.value == "0" ? self.key.lable : self.value + self.key.lable
+            self.calcVM.handelKeyPress(key: self.key)
         }){
             RoundedRectangle(cornerRadius: width / 2)
             .foregroundColor(key.color)

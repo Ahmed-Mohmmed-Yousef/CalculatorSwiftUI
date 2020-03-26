@@ -17,6 +17,8 @@
 		249CF0B6242C18F4000D9C44 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0B5242C18F4000D9C44 /* ResultView.swift */; };
 		249CF0B8242C192F000D9C44 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0B7242C192F000D9C44 /* KeyView.swift */; };
 		249CF0BA242C195F000D9C44 /* KeyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0B9242C195F000D9C44 /* KeyPadView.swift */; };
+		249CF0BC242CCB0A000D9C44 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0BB242CCB0A000D9C44 /* Test.swift */; };
+		249CF0BF242CD405000D9C44 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CF0BE242CD405000D9C44 /* CalculatorVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		249CF0B5242C18F4000D9C44 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		249CF0B7242C192F000D9C44 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		249CF0B9242C195F000D9C44 /* KeyPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadView.swift; sourceTree = "<group>"; };
+		249CF0BB242CCB0A000D9C44 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		249CF0BE242CD405000D9C44 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		249CF09B242C080E000D9C44 /* CalculatorSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				249CF0BD242CD3E3000D9C44 /* ViewModels */,
 				249CF0B0242C1858000D9C44 /* Models */,
 				249CF0B2242C1872000D9C44 /* Views */,
 				249CF09C242C080E000D9C44 /* AppDelegate.swift */,
@@ -99,8 +104,17 @@
 				249CF0B5242C18F4000D9C44 /* ResultView.swift */,
 				249CF0B7242C192F000D9C44 /* KeyView.swift */,
 				249CF0B9242C195F000D9C44 /* KeyPadView.swift */,
+				249CF0BB242CCB0A000D9C44 /* Test.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		249CF0BD242CD3E3000D9C44 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				249CF0BE242CD405000D9C44 /* CalculatorVM.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +191,10 @@
 				249CF09D242C080E000D9C44 /* AppDelegate.swift in Sources */,
 				249CF0BA242C195F000D9C44 /* KeyPadView.swift in Sources */,
 				249CF0B4242C18A0000D9C44 /* Key.swift in Sources */,
+				249CF0BF242CD405000D9C44 /* CalculatorVM.swift in Sources */,
 				249CF0B8242C192F000D9C44 /* KeyView.swift in Sources */,
 				249CF0B6242C18F4000D9C44 /* ResultView.swift in Sources */,
+				249CF0BC242CCB0A000D9C44 /* Test.swift in Sources */,
 				249CF09F242C080E000D9C44 /* SceneDelegate.swift in Sources */,
 				249CF0A1242C080E000D9C44 /* ContentView.swift in Sources */,
 			);
